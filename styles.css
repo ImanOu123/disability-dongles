@@ -1,23 +1,40 @@
 body{
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #edece9;
 }
 
 #pg_title {
-
     margin-top: 50px;
     text-align: center;
 }
 
-#sec_title{
-
+.ques_sug {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 5px;
+  /* background-color: black; */
+  padding: 5px;
 }
 
-#desc{
-
+.ques_sug > div {
+    padding: 10px;
+    border-style: dashed;
+    background-color: white;
 }
 
-#consid{
-
+#supp_resources{
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 
+#proc_img {
+    max-width: 100%;
+}
+
+ul > li {
+    margin-top: 5pt;
+}
+ol > li {
+    margin-top: 5pt;
+}
