@@ -1,12 +1,18 @@
-body{
-    margin-left: 5%;
-    margin-right: 5%;
-    background-color: #edece9;
+body {
+    background-color: #eee2dc;
+
+}
+#pg_body {
+    margin: 3%;
+    padding: 3%;
+    padding-top: 1%;
+    background-color: white;
+    font-family: 'Inter';
 }
 
 #pg_title {
-    margin-top: 50px;
     text-align: center;
+    color: #0d2b4b;
 }
 
 .ques_sug {
@@ -37,4 +43,18 @@ ul > li {
 }
 ol > li {
     margin-top: 5pt;
+}
+
+blockquote {
+    background: #ffffff;
+    border-left: 10px solid #123C69;
+    margin: 5px;
+    padding: 5px;
+}
+
+h2 {
+    color: #0d2b4b;
+}
+h3 {
+    color: #123C69;
 }
