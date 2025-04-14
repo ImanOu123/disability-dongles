@@ -3,7 +3,9 @@ body {
 
 }
 #pg_body {
-    margin: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
     padding: 3%;
     padding-top: 1%;
     background-color: white;
@@ -13,7 +15,9 @@ body {
 #pg_title {
     text-align: center;
     color: #0d2b4b;
+    font-size: 35pt;
 }
+
 
 .ques_sug {
   display: grid;
@@ -25,8 +29,8 @@ body {
 
 .ques_sug > div {
     padding: 10px;
-    border-style: dashed;
-    background-color: white;
+    border-style: groove;
+    /* background-color: white; */
 }
 
 #supp_resources{
@@ -45,16 +49,35 @@ ol > li {
     margin-top: 5pt;
 }
 
+/* https://css-tricks.com/snippets/css/simple-and-nice-blockquote-styling/ */
+
 blockquote {
     background: #ffffff;
     border-left: 10px solid #123C69;
-    margin: 5px;
+    margin: 30px;
     padding: 5px;
+}
+
+blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    vertical-align: -0.4em;
 }
 
 h2 {
     color: #0d2b4b;
+    font-size: 20pt;
 }
 h3 {
     color: #123C69;
+    font-size: 18pt;
+    margin-top: 35pt;
+    margin-bottom: 5pt;
+}
+
+h4 {
+    margin-bottom: 4pt;
+    font-size: 13pt;
 }
