@@ -33,7 +33,7 @@ body {
     /* background-color: white; */
 }
 
-#supp_resources{
+.supp_resources{
     grid-column-start: 1;
     grid-column-end: 3;
 }
@@ -88,3 +88,16 @@ h4 {
     /* margin-bottom: 4pt; */
     font-size: 13pt;
 }
+
+summary {
+    border: 1px dashed rgba(0, 0, 0, 0);
+}
+
+summary:hover {
+    cursor: pointer;
+}
+
+summary:hover {
+    border: 1px dashed black;
+}
+
