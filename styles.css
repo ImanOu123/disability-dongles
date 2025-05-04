@@ -42,6 +42,19 @@ body {
     max-width: 100%;
 }
 
+#sign_lang_glove {
+    max-width: 50%;
+}
+
+#stair_climbing{
+    max-width: 50%;
+}
+#citation{
+    color: gray; 
+    font-size: 10px;
+}
+
+
 ul > li {
     margin-top: 5pt;
 }
