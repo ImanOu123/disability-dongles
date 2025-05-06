@@ -44,10 +44,12 @@ body {
 
 #sign_lang_glove {
     max-width: 50%;
+    margin-top: 10pt;
 }
 
 #stair_climbing{
     max-width: 50%;
+    margin-top: 10pt;
 }
 #citation{
     color: gray; 
