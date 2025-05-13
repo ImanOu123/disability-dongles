@@ -1,6 +1,6 @@
 body {
     background-color: #eee2dc;
-
+    margin: 0px;
 }
 #pg_body {
     margin-left: auto;
@@ -17,7 +17,6 @@ body {
     color: #0d2b4b;
     font-size: 35pt;
 }
-
 
 .ques_sug {
   display: grid;
@@ -116,3 +115,19 @@ summary:hover {
     border: 1px dashed black;
 }
 
+@media only screen and (max-width: 600px) {
+    .ques_sug {
+        gap: 0px;
+        padding: 0px;
+    }
+    .ques_sug > div {
+        padding: 5px;
+        border-style: none;
+    }
+    ol, ul {
+        padding-inline-start: 18px;
+    }
+    ul > ul, ol > ol, ol > ul, ul > ol {
+        padding-inline-start: 14px;
+    }
+  }
